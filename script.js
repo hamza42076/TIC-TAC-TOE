@@ -35,10 +35,7 @@ const checkpattern = ()=>{
 
         if (posi1val != "" && posi2val != "" && posi3val != ""){
             if(posi1val === posi2val && posi2val === posi3val ){
-                console.log("You are  a winner");
-                
-                
-
+                alert("Congratulation you are winner!!!")
             }
         }
     }
